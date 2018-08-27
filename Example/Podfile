@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZFExpandableTextView_Example' do
+  pod 'ZFExpandableTextView', :path => '../'
+
+  target 'ZFExpandableTextView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
