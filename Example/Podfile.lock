@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZFExpandableTextView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZFExpandableTextView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZFExpandableTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZFExpandableTextView: f67cf7129dc5fe75da5e52d0a465c76a192779fa
+
+PODFILE CHECKSUM: eaa25714d57b5fb52c904c6beb11860151cda4c8
+
+COCOAPODS: 1.5.3

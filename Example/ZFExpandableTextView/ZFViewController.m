@@ -7,6 +7,7 @@
 //
 
 #import "ZFViewController.h"
+#import "ZFExpandableTextView.h"
 
 @interface ZFViewController ()
 
@@ -16,6 +17,11 @@
 
 - (void)viewDidLoad
 {
+    ZFExpandableTextView * test = [[ZFExpandableTextView alloc]initWithFrame:CGRectMake(100, 200, 200, 43)];
+    [test setFontSize:14.0];
+    [test setMaxNumberOfLines:4];
+    //[test setIsExpandable:NO];
+    [self.view addSubview:test];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

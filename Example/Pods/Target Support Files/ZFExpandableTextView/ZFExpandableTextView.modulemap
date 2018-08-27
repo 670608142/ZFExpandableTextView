@@ -1,0 +1,6 @@
+framework module ZFExpandableTextView {
+  umbrella header "ZFExpandableTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
